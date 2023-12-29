@@ -2,9 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>welcome to netlify woaw</h1>
-    </div>
+    <section>
+      <div className="header-container">
+        <h1>welcome to netlify woaw</h1>
+      </div>
+    </section>
   );
 }
 
