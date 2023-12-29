@@ -1,10 +1,12 @@
 import './App.css';
+import IMG1 from './image/img1.jpg';
 
 function App() {
   return (
     <section>
       <div className="header-container">
-        <h1>welcome to netlify woaw</h1>
+        <h1>welcome to netlify first image</h1>
+        <img src={IMG1} alt='home page assets' />
       </div>
     </section>
   );
